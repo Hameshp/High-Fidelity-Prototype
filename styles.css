@@ -1,0 +1,106 @@
+/* #317f43 */ 
+
+/* Foreground colour for when the background is my custom colour */
+.foreground-color {
+  color: white;
+}
+
+/* Assigned colour */
+.custom-background-color {
+  background-color: #317f43;
+}
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(187, 187, 187);
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #317f43;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(187, 187, 187);
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #7cbb25;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn {
+	background-color: #317f43;
+	text-decoration: none;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #7cbb25;
+	text-decoration: none;
+	color: white;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.bookclubrego {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #317f43;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 42px;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:focus {
+  text-decoration: underline;
+}
